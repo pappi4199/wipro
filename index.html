@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explore practical courses and build skills at your own pace with OpenPath Learning.">
-  <title>OpenPath Learning — make room to grow</title>
+  <meta name="description" content="Explore practical courses and build skills at your own pace.">
+  <title>Learning — make room to grow</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
@@ -21,7 +21,7 @@
   </style>
 </head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="#top"><span class="mark">↗</span> openpath</a><nav class="links"><a href="#courses">Explore courses</a><a href="#paths">Learning paths</a><a href="#about">Our approach</a><a class="button" href="#courses">Start learning <span>→</span></a></nav></div></header>
+<header><div class="wrap nav"><a class="brand" href="#top"><span class="mark">↗</span></a><nav class="links"><a href="#courses">Explore courses</a><a href="#paths">Learning paths</a><a href="#about">Our approach</a><a class="button" href="#courses">Start learning <span>→</span></a></nav></div></header>
 <main id="top">
   <div class="wrap hero"><div class="hero-grid"><div><div class="eyebrow"><span>✦</span> Learning that moves with you</div><h1>Make room to <em>grow.</em></h1><p>Curiosity has no finish line. Find practical courses, follow your interests, and build skills that open new doors.</p><div class="hero-ctas"><a class="button" href="#courses">Explore courses <span>→</span></a><a class="button light" href="#paths">How it works</a></div><div class="proof"><div class="avatars"><i></i><i></i><i></i><i></i></div><span><b>A community of curious minds</b><br>learning something new every day</span></div></div>
   <div class="hero-art" aria-label="Illustration of a learner reading outdoors"><div class="sun"></div><div class="hill back"></div><div class="hill"></div><div class="person"><div class="hair"></div><div class="head"></div><div class="body"></div><div class="book"></div></div><div class="float-card one"><span class="spark">✦</span> TODAY'S REMINDER<strong>Small steps count.</strong></div><div class="float-card two">YOUR NEXT CHAPTER<strong>Starts with a question →</strong></div></div></div></div>
@@ -51,9 +51,9 @@
     </div><div id="no-results" class="no-results">No courses match that search yet. Try another topic.</div>
   </div></section>
   <section id="paths" class="path-section"><div class="wrap"><div class="section-head"><div><div class="kicker">A little direction, a lot of possibility</div><h2>Follow a learning path</h2><p>Thoughtful collections that help you keep moving forward.</p></div></div><div class="path-grid"><article class="path-card"><div class="path-icon">🪴</div><div><h3>Build a creative practice</h3><p>Make more, experiment often, and develop ideas into work you’re proud to share.</p><div class="path-meta"><span>4 courses</span><span>•</span><span>Go at your own pace</span></div></div></article><article class="path-card"><div class="path-icon">🧭</div><div><h3>Feel at home with technology</h3><p>Understand the digital tools around you and start making things of your own.</p><div class="path-meta"><span>5 courses</span><span>•</span><span>Go at your own pace</span></div></div></article><article class="path-card"><div class="path-icon">🌼</div><div><h3>Everyday wellbeing</h3><p>Explore small, sustainable ways to care for your attention, energy, and routines.</p><div class="path-meta"><span>3 courses</span><span>•</span><span>Go at your own pace</span></div></div></article><article class="path-card"><div class="path-icon">🌤️</div><div><h3>Work with more confidence</h3><p>Practice useful skills for communicating, planning, and growing your next idea.</p><div class="path-meta"><span>4 courses</span><span>•</span><span>Go at your own pace</span></div></div></article></div></div></section>
-  <section id="about" class="quote"><div class="wrap"><div class="kicker">A note from OpenPath</div><blockquote>“Learning isn’t a race to the finish. It’s the little spark that makes you want to see what’s around the next corner.”</blockquote><cite>OpenPath Learning · Here for the curious</cite></div></section>
+  <section id="about" class="quote"><div class="wrap"><div class="kicker">A note about learning</div><blockquote>“Learning isn’t a race to the finish. It’s the little spark that makes you want to see what’s around the next corner.”</blockquote><cite>Here for the curious</cite></div></section>
   <div class="wrap"><div class="cta"><div><h2>Your next chapter can start today.</h2><p>Pick a topic that interests you. The rest can unfold one lesson at a time.</p></div><a class="button" href="#courses">Find a course <span>→</span></a></div></div>
-</main><footer><div class="wrap foot"><a class="brand" href="#top"><span class="mark">↗</span> openpath</a><span>Stay curious. Keep growing. © 2026 OpenPath Learning</span><span>Made for every kind of learner.</span></div></footer>
+</main><footer><div class="wrap foot"><a class="brand" href="#top"><span class="mark">↗</span></a><span>Stay curious. Keep growing. © 2026</span><span>Made for every kind of learner.</span></div></footer>
 <script>
   const filters=[...document.querySelectorAll('.filter')], cards=[...document.querySelectorAll('.course')], search=document.getElementById('search'); let active='all';
   function apply(){const q=search.value.trim().toLowerCase();let shown=0;cards.forEach(card=>{const ok=(active==='all'||card.dataset.category===active)&&(!q||card.dataset.search.includes(q)||card.innerText.toLowerCase().includes(q));card.style.display=ok?'':'none';if(ok)shown++});document.getElementById('no-results').style.display=shown?'none':'block'}
